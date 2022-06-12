@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Test</title>
+	<link rel="stylesheet" type="text/css" href="formstyle.css">
+</head>
+<body>
+	<div class="container">
+	<h2>Calculator</h2>
+	<input  id ='a' type="text" name="" placeholder="Enter the first number">
+	<br><br>
+	<input id ='b' type="text" name="" placeholder="Enter the second number">
+	<br><br>
+	<div>Choose any of the operations from the options below (+,-,*,/):</div>
+	<br>
+	<select id="opt">
+		<option value="+">+</option>
+		<option>-</option>
+		<option>*</option>
+		<option>/</option>
+	</select>
+	<br><br>
+	<button onclick="result()">Click for result</button>
+	<div id="result"></div>
+	</div>
+	<script src="calcscript.js"></script>
+</body>
+</html>
